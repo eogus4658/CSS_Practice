@@ -1,0 +1,32 @@
+h1{
+  text-align:center;
+  font-weight:normal;
+  border-bottom:5px double red;
+  padding-bottom:10px;
+  margin-top:0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#info{
+  text-align:right;
+}
+#menu{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top:100px;
+}
+
+#menu div{
+  margin:3px;
+  background-color: green;
+  display:block;
+  text-align:center;
+  font-weight: bold;
+}
+#selected{
+
+  padding-bottom:3px;
+  border-bottom:3px solid blue;
+}
